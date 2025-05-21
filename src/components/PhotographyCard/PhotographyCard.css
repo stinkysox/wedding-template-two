@@ -1,0 +1,86 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #faf6f2;
+  padding: 20px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #faf6f2;
+  color: #333;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.signature {
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.book-button {
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: "Cormorant Garamond", serif;
+  transition: background-color 0.3s;
+  margin-bottom: 30px;
+}
+
+.book-button:hover {
+  background-color: #734d32;
+}
+
+.featured-image-container {
+  margin-top: 10px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 20px 15px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+}
